@@ -7,15 +7,14 @@ rem to setup conda environment
 
 conda update conda --all
 conda update anaconda
-conda create -n spleeter-env python=3.8
-conda install -n spleeter-env -c conda-forge ffmpeg libsndfile
+conda create -n 2048-env python=3.10
 
-rem to install spleeter
-rem conda activate spleeter-env
-rem pip install spleeter
+rem to install pygame
+rem conda activate 2048-env
+rem pip install pygame
 
-rem to use spleeter
-rem conda activate spleeter-env
-rem spleeter commands ie ...
+rem to use 2048
+rem conda activate 2048-env
+rem run 2048 code
 
-rem spleeter separate -o audio_output -p spleeter:4stems "SourceAudioFiles\02 Richard III.mp3"
+rem python play.py
